@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ddd;
+  color: white;
+}
+
+.content-box {
+  background-color: white;
+  width: 600px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  padding-bottom: 50px;
+}
+
+.content-box .quote-text span {
+  text-align: center;
+}
+
+.content-box .quote-text i.fa-quote-left {
+  float: left;
+}
+
+.content-box .quote-author p {
+  text-align: right;
+  margin: 10px;
+}
+
+.btn.btn-secondary {
+  background-color: #ddd;
+  color: white;
+  margin: 2px;
+  float: right;
+}
+
+.quote-text {
+  color: #ddd;
+}
+
+.quote-author {
+  color: #ddd;
+  clear: both;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer a {
+  color: white;
+}
